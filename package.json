@@ -1,0 +1,28 @@
+{
+  "name": "croud-profiler",
+  "version": "1.0.0",
+  "description": "croud-control-profiler",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brock Reece",
+  "license": "ISC",
+  "dependencies": {
+    "jwt-decode": "^2.2.0",
+    "rxjs": "^5.5.6",
+    "socket.io-client": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.54.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-uglify": "^2.0.1"
+  }
+}

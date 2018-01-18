@@ -6,7 +6,7 @@
       {
         "matches": [
           "http://*.croudcontrol.local/*",
-          "http://*.croudcontrol.com/*"
+          "https://croudcontrol.com/*"
         ],
         "js": [
             "/build/socket.io.js",

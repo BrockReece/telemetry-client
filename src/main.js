@@ -30,7 +30,7 @@ function observeMeasurePerformance() {
 
 
 const token = jwtDecode(localStorage.getItem('jwt'))
-const socket = io('http://192.168.99.100:3030', {
+const socket = io('https://telemetry-integration.croud.tech/', {
     transportOptions: {
         polling: {
             extraHeaders: {

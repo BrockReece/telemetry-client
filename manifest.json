@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
     "name": "Croud profiler",
-    "version": "0.3",
+    "version": "0.4",
     "content_scripts": [
       {
         "matches": [
           "http://*.croudcontrol.local/*",
-          "https://croudcontrol.com/*"
+          "https://croudcontrol.com"
         ],
         "js": [
             "/build/socket.io.js",

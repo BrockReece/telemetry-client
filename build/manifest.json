@@ -6,11 +6,11 @@
       {
         "matches": [
           "http://*.croudcontrol.local/*",
-          "https://croudcontrol.com"
+          "https://croudcontrol.com/"
         ],
         "js": [
-            "/build/socket.io.js",
-            "/build/main.min.js"
+            "socket.io.js",
+            "main.min.js"
         ]
       }
     ]

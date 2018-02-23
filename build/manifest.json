@@ -6,7 +6,8 @@
       {
         "matches": [
           "http://*.croudcontrol.local/*",
-          "https://croudcontrol.com/"
+          "https://croudcontrol.com/",
+          "https://croudcontrol.com/supercroud/dashboard"
         ],
         "js": [
             "socket.io.js",
